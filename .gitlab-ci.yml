@@ -1,6 +1,6 @@
 # vim: set expandtab shiftwidth=2 tabstop=8 textwidth=0 filetype=yaml:
 
-.templates_sha: &template_sha 16f790f93f893394b70d7048fb0e8a981ceaa3c5 # see https://docs.gitlab.com/ee/ci/yaml/#includefile
+.templates_sha: &template_sha 185ede0e9b9b1924b92306ab8b882a6294e92613 # see https://docs.gitlab.com/ee/ci/yaml/#includefile
 
 include:
   - project: 'freedesktop/ci-templates'
@@ -19,7 +19,7 @@ stages:
   - deploy
 
 variables:
-  FDO_DISTRIBUTION_TAG: '2021-05-30.8'  # change this to rebuild the images
+  FDO_DISTRIBUTION_TAG: '2023-10-13.0'  # change this to rebuild the images
   FDO_UPSTREAM_REPO: 'xorg/lib/libxi'
   FDO_DISTRIBUTION_VERSION: 'stable'
   FDO_DISTRIBUTION_PACKAGES: 'git ca-certificates meson g++ make xutils-dev autoconf automake libtool pkg-config xmlto xorg-sgml-doctools w3m xsltproc libx11-dev libxext-dev libxfixes-dev'
