@@ -71,8 +71,8 @@ core
 *.tar.bz2
 *.tar.gz
 #
-#		Add & Override patterns for libXi 
+#		Add & Override patterns for libXi
 #
 #		Edit the following section as needed
 # For example, !report.pc overrides *.pc. See 'man gitignore'
-# 
+#
